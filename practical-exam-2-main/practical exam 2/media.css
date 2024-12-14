@@ -1,0 +1,128 @@
+/*mobile*/
+@media (min-width:320px)
+{
+    .menu-list
+    {
+        height: auto;
+    }
+    .menu-list ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery
+    {
+        margin-top: 50%;
+    }
+    .gallery .gallery-images
+    {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery-images img
+    {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+
+/*tablet*/
+@media (min-width:481px)
+{
+    .gallery
+    {
+        margin-top:180px;
+        margin-bottom: 50px;
+    }
+    .gallery .gallery-images
+    {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-images img
+    {
+        height:30vh;
+        width: 48%;
+    }
+
+
+}
+
+
+/*laptop*/
+@media (min-width:769px)
+{
+    .menu-list
+    {
+        width: 80%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .menu-list ul 
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+    .gallery
+    {
+        width: 100%;
+        margin-top:0px;
+    }
+    .gallery .gallery-images
+    {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-images img
+    {
+        height:33vh;
+        width: 32%;
+    }
+}
+
+
+
+/*computer*/
+@media (min-width:1024px)
+{
+    .menu-list
+    {
+        height: 60px;
+        
+    }
+    .menu-list ul 
+    {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+    .gallery
+    {
+        margin-top:20px;
+    }
+    .gallery .gallery-images
+    {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-images img
+    {
+        height:37vh;
+        width: 23%;
+    }
+}
