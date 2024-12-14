@@ -1,0 +1,174 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(0,0,0,0.5) ,  rgba(0,0,0,0.5)) , url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background:;
+}
+nav
+{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px gray solid;
+
+}
+.nav-container
+{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.menu-list
+{
+    height: 60px;
+    width: 30%;    
+    line-height: 60px;
+    
+}
+.menu-list ul
+{
+    display: flex ;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu-list ul li a
+{
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+}
+.icons
+{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i
+{
+    font-size: 20px;
+}
+.icons  a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.content
+{
+    height: 70%;
+    width: 50%;
+    float: left;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+.content h1
+{
+    font-family: arial;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 26%;
+
+}
+.content span
+{ 
+    position: relative;
+    top: 35%;
+   
+}
+.content span a
+{
+    text-decoration: none;
+    color: white;
+}
+.form
+{
+    height: 70%;
+    width: 30%;
+    float: right;
+    background-color: white;
+    position: absolute;
+    left: 65%;
+    top: 20%;
+
+}
+.form h1
+{
+    font-family: arial;
+    font-weight: bolder;
+    position:absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.form h2
+{
+    text-align: center;
+    font-family: arial;
+    position:absolute;
+    left: 15%;
+    top: 15%;
+    color: gray;
+}
+.form .name
+{
+    height: 50px;
+    width: 75%;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-left: 20px;
+    position:absolute;
+    left: 12%;
+    top: 35%;
+}
+.form .email
+{
+    height: 50px;
+    width: 75%;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-left: 20px;
+    position:absolute;
+    left: 12%;
+    top: 50%;
+}
+.form button
+{
+    height: 50px;
+    width: 75%;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background-color: navy;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    position:absolute;
+    left: 12%;
+    top: 67%;
+}
+
+
+ 
