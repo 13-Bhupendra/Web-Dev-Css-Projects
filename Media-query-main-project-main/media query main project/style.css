@@ -1,0 +1,1031 @@
+ *   
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body
+{
+    background-color:linen;
+} 
+.banner
+{
+    height: auto;
+    width: 100%;
+}
+.banner img
+{
+    height:700px;
+    width: 100%;
+}
+ 
+.logo
+{
+    height: 65px;
+    width:170px;
+    position: absolute;
+    top: -5px;
+    left: 7%;
+    animation-name: slide-in-blurred-top;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+.logo img
+{
+    height: 65px;
+    width: 100%;
+}
+.menu
+{
+    height: 65px;
+    width: 35%;
+    position: absolute;
+    top: 0px;
+    left: 58%;
+    display: flex;
+    animation-name: slide-in-blurred-top;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+@-webkit-keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+.box1
+{
+    height: 65px;
+    width: 20%;
+    background-color: #da392b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    border-bottom-left-radius: 20px;
+}
+.box2
+{
+    height: 65px;
+    width: 20%;
+    background-color: whitesmoke;
+    text-align: center;
+     
+}
+.box2 ul li
+{
+    position: relative;
+    top: 23px;
+    list-style: none;
+}
+.box3
+{
+    height: 65px;
+    width: 20%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+.box4
+{
+    height: 65px;
+    width: 20%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+.box5
+{
+    height: 65px;
+    width: 20%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+    transition: 0.4s;
+}   
+.box3:hover ,.box4:hover , .box5:hover
+{
+    background-color: #da392b;
+    color: white;
+}
+.menu .box1 a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu .box2 a ,.box3 a ,.box4 a ,.box5 a
+{
+    text-decoration: none;
+    color:gray;
+}
+.dropdown-menu
+{
+    display: none;
+}
+.box2 ul li:hover .dropdown-menu
+{
+    display: block;
+    height: 100px;
+    position: relative;
+    top: 35px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.dropdown-menu .menu-list
+{
+    list-style: none;
+}
+.dropdown-menu .menu-list .content
+{
+    padding: 0px 0px 7px  0px ;
+}
+.dropdown-menu .menu-list .content:hover
+{
+    
+    background-color: #da392b;
+    color: white;
+}
+.gallery
+{
+    height: 380px;
+    width: 100%;
+    margin: 30px 0px;
+}
+.gallery-list
+{
+    height: 380px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.image-one
+{
+    height: 380px;
+    width: 22%;
+    overflow: hidden;
+    border-radius: 25px;
+    
+}
+.image-one img
+{
+    transition: 1s;
+}
+.image-one:hover img
+{
+    transform: scale(1.2);
+}
+.image-one span
+{
+    color: white;
+    position: relative;
+    right: 10px;
+}
+.image-two
+{
+    height: 380px;
+    width: 22%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.image-two img
+{
+    transition: 1s;
+}
+.image-two:hover img
+{
+    transform: scale(1.2);
+}
+.image-three
+{
+    height: 380px;
+    width: 22%;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+.image-three img
+{
+    transition: 1s;
+}
+.image-three:hover img
+{
+    transform: scale(1.2);
+}
+.image-four
+{
+    height: 380px;
+    width: 22%;
+    border-radius: 25px;
+    background: rgb(245,255,0);
+    background: linear-gradient(180deg, rgba(245,255,0,1) 0%, rgba(218,146,45,1) 76%, rgba(222,123,29,1) 100%);
+    transition: 0.8s;
+}
+.image-four h1
+{
+    text-align: center;
+    position: relative;
+    top: 35%;
+    color: maroon;
+}
+.image-four:hover
+{
+    background:yellow;
+    color: black;
+    font-size: 20px;
+}
+.kipon
+{
+    width: 100px;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 10%;
+    top: -120px;
+}
+.kipon::after
+{
+
+    display: block;
+    content:"Casual-Free";
+    font-size: 16px;
+    font-weight: 500;
+    padding:5px 0px 0px 0px;
+
+}
+.robotrix
+{
+    width: 100px;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 32%;
+    top: -170px;
+}
+.robotrix::after
+{
+
+    display: block;
+    content:"RPG-Free";
+    font-size: 16px;
+    font-weight: 500;
+    padding:5px 0px 0px 0px;
+
+}
+.treasure
+{
+    width: 180px;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 54%;
+    top: -220px;
+}
+.treasure::after
+{
+
+    display: block;
+    content:"RPG-Free";
+    font-size: 16px;
+    font-weight: 500;
+    padding:5px 0px 0px 0px;
+
+}
+.about-tripo
+{
+    position: relative;
+    top: -140px;
+    text-align: center;
+}
+.about
+{
+    color: rgb(0, 0, 79);
+    font-size: 21px;
+}
+.about-text
+{
+    color: rgb(0, 0, 79);
+    font-size: 50px;
+    font-family: "Bree Serif", serif;
+    font-weight: bolder;
+    padding: 25px 0px;
+    line-height: 60px;
+}
+.about-para
+{
+    color: rgb(0, 0, 79);
+    font-size: medium;
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+.learn-more-btn
+{
+    height: 55px;
+    width: 150px;
+    background-color: #da392b;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+}
+.learn-more-btn a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.6s;
+
+}
+.learn-more-btn:hover
+{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.learn-more-btn a:hover
+{
+    color: black;
+}
+.banner2-image
+{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    margin: auto;
+    bottom: 70px;
+    border-radius: 20px;
+}
+.banner2-image .bnr2-image
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.overlay
+{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    background:rgba(255,0,0,0.2);
+    margin: auto;
+    bottom: 101%;
+    opacity: 0;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.overlay:hover
+{
+    opacity: 1;
+}
+.ctn 
+{
+    height: 250px;
+    width: 230px;
+    position: relative;
+    bottom: 153%;
+    right: 12%;
+}
+.about-games
+{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.games
+{
+    color: rgb(0, 0, 79);
+    font-size: 50px;
+    font-family: "Bree Serif", serif;
+    font-weight: bolder;
+    padding: 25px 0px;
+    line-height: 60px;
+}
+.games-para
+{
+    color: rgb(0, 0, 79);
+    font-size: medium;
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+.background-image
+{
+    position: relative;
+    top:170px;
+    overflow: hidden;
+}
+.background-image
+{
+    background: url(image/mobile-bnr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.games-gallery
+{
+    height: 190vh;
+    width: 100%;
+    background-repeat: no-repeat
+}
+.games-gallery-ctn
+{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.kipon-box
+{
+    height: 400px;
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    position: relative;
+    right: 50px;
+}
+.kipon-prof
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    top: 45px;
+    left: 60px;
+    display: flex;
+}
+.kipon-prof img
+{
+    height: 100px;
+    width: 100%;
+    border-radius: 30px;
+    border: 7px solid white;
+
+}
+.kipon-prof::after
+{
+    content:"Kipon";
+    font-size:25px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 40px;
+    
+}
+.kipon-box p
+{
+    color:black;
+    font-size: medium;
+    font-size: 17px;
+    line-height: 23px;
+    position: relative;
+    left:60px ;
+    top: 85px;
+}
+.kipon-box section
+{
+    position: relative;
+    top: 30%;
+    left: 55px;
+}
+.kipon-box section img
+{
+    height: 50px;
+    padding: 2px;
+}
+.robotrix-box
+{
+    height: 400px;
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    position: relative;
+    left:38%;
+}
+.robotrix-prof
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    top: 45px;
+    left: 60px;
+}
+.robotrix-prof img
+{
+    height: 100px;
+    width: 100%;
+    border-radius: 30px;
+    border: 7px solid white;
+
+}
+.robotrix-prof::after
+{
+    content: "Robotrix"; 
+    font-size:25px;
+    font-weight: bold;
+    position: relative;
+    top: -60px;
+    left: 120px;
+    
+}
+.robotrix-box p
+{
+    color:black;
+    font-size: medium;
+    font-size: 17px;
+    line-height: 23px;
+    position: relative;
+    left:60px ;
+    top: 85px;
+}
+.robotrix-box section
+{
+    position: relative;
+    top: 30%;
+    left: 55px;
+}
+.robotrix-box section img
+{
+    height: 50px;
+    padding: 2px;
+}
+.treasure-box
+{
+    height: 400px;
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    position: relative;
+    top:250%;
+    right: 70%;
+}
+.treasure-prof
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    top: 45px;
+    left: 60px;
+}
+.treasure-prof img
+{
+    height: 100px;
+    width: 100%;
+    border-radius: 30px;
+    border: 7px solid white;
+
+}
+.treasure-prof::after
+{
+    content: "Treasure-Box"; 
+    font-size:20px;
+    font-weight: bold;
+    position: relative;
+    top: -70px;
+    left: 120px;
+}
+.treasure-box p
+{
+    color:black;
+    font-size: medium;
+    font-size: 17px;
+    line-height: 23px;
+    position: relative;
+    left:60px ;
+    top: 85px;
+}
+.treasure-box section
+{
+    position: relative;
+    top: 30%;
+    left: 55px;
+}
+.treasure-box section img
+{
+    height: 50px;
+    padding: 2px;
+}
+.bnr-cartoon img
+{
+    height: 300px;
+    position: relative;
+    left: 68%;
+    top: 630px;
+}
+.horse-background
+{
+    position: relative;
+    top: 400px;
+    height: 700px;
+    width: 100%;
+    background:url(image/horse-bg.jpg);
+    background-attachment: fixed;
+}
+.horse-background section
+{
+    width: 80%;
+    position: relative;
+    left:10%;
+    top: 15%;
+}
+.horse-background h3
+{
+    color: white;
+    font-size: 21px;
+}
+.horse-background h1
+{
+    color:white;
+    font-size: 50px;
+    font-family: "Bree Serif", serif;
+    font-weight: bolder;
+    padding: 25px 0px;
+    line-height: 60px;
+}
+.explore-btn
+{
+    height: 55px;
+    width: 150px;
+    background-color: rgb(233, 233, 84);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+}
+.explore-btn a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.6s;
+
+}
+.explore-btn:hover
+{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border: none;
+    outline: none;
+}
+.horse-background img
+{
+    height: 400px;
+    width: 470px;
+    position: relative;
+    left: 60%;
+    top: 51px;
+}
+.background-img2
+{
+    height:700px;
+    width: 100%;
+    background-color: #da392b;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(image/space-flat-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 400px;
+    background-attachment: fixed;
+}
+.background-img2 .subs-box
+{   
+    height: 270px;
+    width: 410px;
+    border-radius: 25px;
+    background-color: #da392b;
+    position: relative;
+    left: 63%;
+    top: 20%;
+}
+.contact-form
+{
+    height: 680px;
+    width: 430px;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 520px;
+    left: 13%;
+    border-radius: 20px;
+} 
+.contact-form h3
+{
+    font-size: 35px;
+    padding:30px 0px 50px 20px;
+}
+.contact-form p
+{
+    font-size: 18px;
+    padding: 0px 0px 50px 20px;
+}
+.contact-form section
+{
+    display: flex;
+}
+.first-name
+{
+    padding-left: 20px;
+}
+.first-name input
+{
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 10px;
+}
+.last-name
+{
+    padding-left: 50px;
+}
+.last-name input
+{
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 10px;
+}
+.email-input
+{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.email-input input
+{
+    height: 40px;
+    width: 95%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 10px;
+}
+.massg-input
+{
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.massg-input textarea
+{
+    height: 100px;
+    width: 95%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 10px;
+}
+.submit-btn
+{
+    padding-left: 20px;
+}
+.submit-btn button
+{
+    height: 40px;
+    width: 95%;
+    background-color: rgb(0, 0, 79);
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    transition: 0.5s;
+}
+.submit-btn button:hover
+{
+    background-color: #da392b;
+}
+.submit-btn button a
+{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.subs-box h3
+{
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.subs-box  label
+{
+    color: white;
+}
+.subs-box input
+{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.subs-box section
+{
+    display: flex;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+.checkbox
+{
+    height: 20px;
+    width: 20px;
+}
+.subs-box span
+{
+    color: white;
+    text-align: left;
+}
+.join-btn
+{
+    height: 55px;
+    width: 125px;
+    background-color: rgb(233, 233, 84);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+}
+.join-btn button
+{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(233, 233, 84);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+
+}
+.join-btn a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.join-btn button:hover
+{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.background-img2 .logo-second
+{
+    height: 65px;
+    width: 100%;
+    position: relative;
+    top: 90%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.background-img2 .logo-second img
+{
+    height: 65px;
+    width: 170px;
+}
+.footer
+{
+    height: 600px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    top: 400px;
+}
+.footer h3
+{
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 79);
+}
+.footer hr
+{
+    margin: auto;
+    height: 1px;
+    width: 75%;
+    margin-top: 40px;
+}
+.footer .footer-list
+{
+    height: auto;
+    width: 75%;
+    position: relative;
+    top: 70px;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 79);
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+.footer .contact-sec
+{
+    position: relative;
+    top: 90px;
+    left: 18%;
+}
+.footer .navigation-sec
+{
+    position: relative;
+    top: 11px;
+    left: 37%;
+}
+.footer .social-sec
+{
+    position: relative;
+    top: -155px;
+    left: 56%;
+}
+.footer a
+{
+    color: gray;
+    text-decoration: none;
+}
+.findus-sec
+{
+    position: relative;
+    left: 71%;
+    top: -260px;
+}
+.findus-sec a img
+{
+    height: 45px;
+}
+.footer .hr-line2
+{
+    margin: 0% auto;
+    position: relative;
+    top: -110px;
+}
+.footer h5
+{
+    color: gray;
+    text-align: center;
+    font-weight: lighter;
+    padding: 40px 0px;
+    font-size: 17px;
+    position: relative;
+    top:-100px;
+}
