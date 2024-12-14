@@ -55,7 +55,7 @@ Css-All-Projects
 
 <h1> practical exam output</h1>
   
-<a href="https://github.com/13-Bhupendra/Web-Dev-Css-Projects/tree/main/practical-exam-2-main/practical%20exam%202">
+<a href="https://velvety-zuccutto-8f8d7a.netlify.app/">
   <img src="https://github.com/13-Bhupendra/Web-Dev-Css-Projects/blob/main/practical-exam-2-main/practical%20exam%202/Screenshot%202024-12-14%20125804.png">
 </a>
 
