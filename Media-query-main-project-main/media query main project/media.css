@@ -28,7 +28,7 @@
         flex-direction: column;
         position: absolute;
         left: 2%;
-        top: 60%;
+        top: 45%;
     }
 
     .box1,
@@ -308,13 +308,15 @@
         overflow: hidden;
         position: relative;
         top: 560px;
+        display: flex;
+        justify-content: center;
     }
 
     .bnr-cartoon img {
         height: 220px;
         position: relative;
         top: 0px;
-        left: 50px;
+        left: 1px;
     }
 
     .contact-info {
@@ -346,7 +348,7 @@
         height: 230px;
         width: 270px;
         position: relative;
-        top: -70px;
+        top: -30px;
         left: 25px;
     }
     .background-img2
@@ -765,13 +767,13 @@
         overflow: hidden;
         position: relative;
         top: 700px;
+        
     }
 
     .bnr-cartoon img {
         height: 220px;
         position: relative;
         top: 0px;
-        left: 30%;
     }
     .contact-info
     {
@@ -783,7 +785,7 @@
         height: 250px;
         width: 290px;
         position: relative;
-        top: -50px;
+        top: -10px;
         left: 90px;
     }
     .last-name input 
@@ -822,516 +824,368 @@
 
 
 
-@media (min-width:769px) {
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-        font-family: arial;
-    }
 
-    .banner img {
-        height: 700px;
-        width: 100%;
-    }
 
-    .logo {
-        height: 65px;
-        width: 170px;
-    }
 
-    .logo img {
-        height: 65px;
-        width: 100%;
-    }
 
-    .menu {
+@media (min-width:1025px) {
+    .banner
+    {
         height: auto;
+        width: 100%;
+    }
+    .banner img
+    {
+        height:700px;
+        width: 100%;
+    }
+    .logo img
+    {
+        height: 65px;
+        width: 100%;
+    }
+    .menu
+    {
+        height: 65px;
         width: 35%;
-        display: flex;
-        flex-direction: row;
         position: absolute;
+        top: 0px;
         left: 58%;
-        top: 0%;
+        display: flex;
     }
-
-    .box1,
-    .box2,
-    .box3,
-    .box4,
-    .box5 {
+    .box1,.box2,.box3,.box4,.box5
+    {
         height: 65px;
-        width: 100%;
     }
-
-    .box1 {
-        border-bottom-left-radius: 10px;
+    .box2
+    {
+        padding-top: 16px;
     }
-
-    .box5 {
-        border-bottom-right-radius: 10px;
-
+    .gallery-list
+    {
+    height: 380px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     }
-
-    .box2 ul li {
-        position: relative;
-        top: 23px;
-        list-style: none;
-    }
-
-    .gallery {
-        height: 380;
-        width: 100%;
-        margin: 0%;
-        position: relative;
-        top: 17px;
-    }
-
-    .gallery .gallery-list {
+    .image-one,.image-two,.image-three,.image-four
+    {
         height: 380px;
-        width: 85%;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: hidden;
+        width: 22%;
     }
-
-    .image-one,
-    .image-two,
-    .image-three,
-    .image-four {
-        height: 380px;
-        width: 23%;
-        margin: 0%;
-        margin-bottom: 20px;
-    }
-
-    .gallery-text {
-        height: auto;
-        width: 100%;
-    }
-
-    .gallery-text .kipon {
-        position: relative;
-        left: 10%;
-        top: -120px;
-    }
-
-    .gallery-text .robotrix {
-        position: relative;
-        left: 32%;
-        top: -170px;
-    }
-
-    .gallery-text .treasure {
-        position: relative;
-        left: 54%;
-        top: -220px;
-    }
-
-    .about-tripo {
-        height: auto;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -60px;
-    }
-
-    .about-tripo .about {
-        font-size: 25px;
-    }
-
-    .about-tripo .about-text {
-        padding: 5px 0px;
-        line-height: 70px;
-        font-size: 60px;
-    }
-
-    .about-tripo .about-para {
-        padding: 10px 0px;
-        margin: auto;
-        font-size: 17px;
-        width: 90%;
-        line-height: 25px;
-    }
-
-    .banner2-image {
-        height: 400px;
-        width: 700px;
-        margin: auto;
-        position: relative;
-        top: 20px;
-        bottom: 0px;
-    }
-
-    .overlay {
-        height: 400px;
-        width: 100%;
-    }
-
-    .banner2-image .ctn {
-        height: 250px;
-        width: 240px;
-        position: relative;
-        top: -155%;
-        left: -15%;
-    }
-
-    .about-games {
-        width: 100%;
-        position: relative;
-        top: 150px;
-    }
-
-    .about-games .games {
-        font-size: 50px;
-        padding: 0px 0px 30px 0px;
-    }
-
-    .about-games .games-para {
-        font-size: 20px;
-        width: 90%;
-        margin: auto;
-        line-height: 25px;
-    }
-
-    .background-image {
-        position: relative;
-        top: 170px;
-        height: 100%;
-        width: 100%;
-    }
-
-    .background-image .games-gallery {
-        height: 190vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-    }
-
-    .background-image .games-gallery-ctn {
-
-        height: 400px;
-        width: 90%;
-        overflow: visible;
-        margin: auto;
-        display: flex;
-        position: relative;
-        top: 10px;
-    }
-
-    .kipon-box {
-        height: 400px;
-        width: 33%;
-        background-color: whitesmoke;
-        border-radius: 25px;
-        position: relative;
-        left: 0px;
-        top: 0px;
-    }
-
-    .kipon-box .kipon-prof {
-        height: 100px;
-        width: 100px;
-        border-radius: 30px;
-        position: relative;
-        top: 45px;
-        left: 60px;
-        display: flex;
-    }
-
-    .kipon-box p {
-        color: black;
-        font-size: medium;
-        font-size: 17px;
-        line-height: 23px;
-        position: relative;
-        left: 60px;
-        top: 85px;
-    }
-
-    .kipon-box section {
-
-        position: relative;
-        top: 30%;
-        left: 55px;
-    }
-
-    .kipon-box section img {
-        height: 50px;
-        padding: 2px;
-    }
-
-    .robotrix-box {
-        height: 400px;
-        width: 33%;
-        background-color: whitesmoke;
-        border-radius: 25px;
-        position: relative;
-        left: 34%;
-        top: 0px;
-    }
-
-    .robotrix-box .kipon-prof {
-        height: 100px;
-        width: 100px;
-        border-radius: 30px;
-        position: relative;
-        top: 45px;
-        left: 60px;
-        display: flex;
-    }
-
-    .robotrix-box p {
-        color: black;
-        font-size: medium;
-        font-size: 17px;
-        line-height: 23px;
-        position: relative;
-        left: 60px;
-        top: 85px;
-    }
-
-    .robotrix-box section {
-
-        position: relative;
-        top: 30%;
-        left: 55px;
-    }
-
-    .robotrix-box section img {
-        height: 50px;
-        padding: 2px;
-    }
-
-    .treasure-box {
-        height: 400px;
-        width: 33%;
-        background-color: whitesmoke;
-        border-radius: 25px;
-        position: relative;
-        left: -70%;
-        top: 250%;
-    }
-
-    .treasure-box .kipon-prof {
-        height: 100px;
-        width: 100px;
-        border-radius: 30px;
-        position: relative;
-        top: 45px;
-        left: 60px;
-        display: flex;
-    }
-
-    .treasure-box p {
-        color: black;
-        font-size: medium;
-        font-size: 17px;
-        line-height: 23px;
-        position: relative;
-        left: 60px;
-        top: 85px;
-    }
-
-    .treasure-box section {
-
-        position: relative;
-        top: 30%;
-        left: 55px;
-    }
-
-    .treasure-box section img {
-        height: 50px;
-        padding: 2px;
-    }
-
-    .bnr-cartoon {
-        height: auto;
-        width: 400px;
-        overflow: hidden;
-        position: relative;
-        top: 560px;
-        left: 67%;
-    }
-
-    .bnr-cartoon img {
-        height: 300px;
-        position: relative;
-        top: 0px;
-        left: 50px;
-    }
-    .contact-info
+    .gallery-text .kipon
     {
         position: relative;
-        top:0px;
+        top: -100px;
+        left: 120px;
+    }
+    .gallery-text .robotrix
+    {
+        position: relative;
+        top: -140px;
+        left: 32%;
+    }
+    .gallery-text .treasure
+    {
+        position: relative;
+        top: -190px;
+        left: 55%;
+    }
+    .about-tripo
+    {
+        position: relative;
+        top: -80px;
+        text-align: center;
+    }
+    .about-tripo .about
+    {
+        color: rgb(0, 0, 79);
+        font-size: 21px;
+    }
+    .about-tripo .about-text
+    {
+        color: rgb(0, 0, 79);
+        font-size: 50px;
+        font-family: "Bree Serif", serif;
+        font-weight: bolder;
+        padding: 25px 0px;
+        line-height: 60px;
+    }
+    .about-tripo .about-para
+    {
+        color: rgb(0, 0, 79);
+        font-size: medium;
+        font-size: 17px;
+        line-height: 23px;
+        padding-bottom: 30px;
+    }
+    .banner2-image,.overlay
+    {
+        height: 400px;
+        width: 700px;
+    }
+    .banner2-image .ctn
+    {
+        height: 250px;
+        width: 230px;
+        position: relative;
+        left: -15%;
+        top: -155%;
+    }
+    .about-games
+    {
+        position: relative;
+        top: 130px;
+    }
+    .about-games .games
+    {
+        font-size: 50px;
+        margin-bottom: 50px;
+
+    }
+    .about-games .games-para
+    {
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .background-image
+    {
+        height: 1000px;
+        margin: auto;
+        background: url(image/mobile-bnr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: visible;
+    }
+    .background-image .games-gallery
+    {
+        height: 190vh;
+        width: 100%;
+        background-repeat: no-repeat
+    }
+    .background-image .games-gallery-ctn
+    {
+        height: 400px;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        position: relative;
+        top: 1px;
+        overflow: visible;
+        
+    }
+    .games-gallery-ctn .kipon-box
+    {
+        height: 400px;
+        width: 33%;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        padding: 35px;
+        position: relative;
+    }
+    .kipon-prof
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .kipon-box p 
+    {
+        font-size: 17px;
+    }
+    .kipon-box section img 
+    {
+        height: 55px;
+        padding: 5px;
+    } 
+    .games-gallery-ctn .robotrix-box
+    {
+        height: 400px;
+        width: 33%;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        padding: 35px;
+        position: relative;
+        left: 34%;
+    }
+    .robotrix-prof
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .robotrix-box p 
+    {
+        font-size: 17px;
+    }
+    .robotrix-box section img 
+    {
+        height: 55px;
+        padding: 5px;
+    } 
+    .games-gallery-ctn .treasure-box
+    {
+        height: 400px;
+        width: 33%;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        padding: 35px;
+        position: relative;
+        top: 170%;
+        left: -67%;
+    }
+    .treasure-box .treasure-prof
+    {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: 0px;
+        left: -1px;
+    }
+     .treasure-box p 
+    {
+        position: relative;
+        left: -0%;
+        font-size: 17px;
+    }
+    .treasure-box section 
+    {
+        position: relative;
+        left: 1px;
+    }
+    .treasure-box section img 
+    {
+        
+        height: 55px;
+        padding: 5px;
+    } 
+    .bnr-cartoon
+    {
+        position: relative;
+        top: 25%;
+    }
+    .bnr-cartoon img
+    {
+        height: 300px;
+        position: relative;
+        left: 26%;
     }
     .contact-info .horse-background
     {
-        height: 700px;   
+        height: 700px;
+        position: relative;
+        top: -200px;
+        padding-top: 100px;
     }
-    .horse-background section
-{
-    width: 80%;
-    position: relative;
-    left:10%;
-    top: 15%;
+    .horse-background h3
+    {
+        color: white;
+        font-size: 21px;
+    }
+    .horse-background h1 
+    {
+        font-size: 50px;
+    }
+    .horse-background img 
+    {
+        height: 350px;
+        width: 400px;
+        position: relative;
+        left:60%;
+    }
+    .background-img2
+    {
+        height: 700px;
+        position: relative;
+        top: -200px;
+    }
+    .contact-form
+    {
+        height: 680px;
+        width: 430px;
+        position: relative;
+        top: -75%;
+        left: 10%;
+    }
+    .contact-form section 
+    {
+        display: flex;
+        flex-direction: row;
+    }  
+    .contact-form section .last-name
+    {
+        margin-top: -10px;
+    }
+    .background-img2 .subs-box
+    {
+        height: 270px;
+        width: 410px;
+        position: relative;
+        top: 25%;
+        left: 26%;
+    }
+    .footer 
+    {
+       
+        height:600px;
+        position: relative;
+        top: 500px;
+    }
+    .footer .footer-list
+    {
+        width: 75%;
+    }
+    .footer .footer-list tr
+    {
+        display: flex ;
+        flex-direction: row;
+    }
+    .footer .footer-list tr td 
+    {
+        width: 25%;
+    }
+    .footer .contact-sec 
+    {
+        position: relative;
+        top: -35%;
+        left: 19%;
+    }
+    .footer .navigation-sec 
+    {
+        position: relative;
+        top: -48%;
+        left: 37%;
+    }
+    .footer .social-sec 
+    {
+        position: relative;
+        top: -75%;
+        left: 57%;
+    }
+    .footer .findus-sec 
+    {
+        position: relative;
+        top: -95%;
+        left: 74%;
+    }
+    .footer .hr-line2
+    {
+        margin-top: 5%;
+    }
+    .footer hr  
+    {
+        margin-bottom: 5%;
+    }
+
 }
-.horse-background h3
-{
-    color: white;
-    font-size: 21px;
-}
-.horse-background h1
-{
-    color:white;
-    font-size: 50px;
-    font-family: "Bree Serif", serif;
-    font-weight: bolder;
-    padding: 25px 0px;
-    line-height: 60px;
-}
-.horse-background img
-{
-    height: 400px;
-    width: 470px;
-    position: relative;
-    left: 60%;
-    top: 51px;
-}
-.background-img2
-{
-    height:700px;
-    width: 100%;
-    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(image/space-flat-background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    top: 400px;
-    background-attachment: fixed;
-}
-.background-img2 .subs-box
-{   
-    height: 270px;
-    width: 410px;
-    border-radius: 25px;
-    background-color: #da392b;
-    position: relative;
-    left: 25%;
-    top: 20%;
-}
-.contact-form
-{
-    height: 680px;
-    width: 430px;
-    background-color: whitesmoke;
-    position: relative;
-    top: -75%;
-    left: 13%;
-    border-radius: 20px;
-} 
-.contact-form section
-{
-    display: flex;
-    flex-direction: row;
-}
-.first-name
-{
-    padding-left: 20px;
-}
-.first-name input
-{
-    height: 40px;
-    width: 170px;
-    border-radius: 10px;
-    padding: 20px;
-    border: 1px solid black;
-    outline: none;
-    margin-top: 10px;
-}
-.last-name
-{
-    padding-left: 50px;
-    position: relative;
-    top: 0px;
-}
-.last-name input
-{
-    height: 40px;
-    width: 170px;
-    border-radius: 10px;
-    padding: 20px;
-    border: 1px solid black;
-    outline: none;
-}
-.footer {
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-    top:400px;
-}
-.footer .footer-list
-{
-    height: auto;
-    width: 75%;
-    position: relative;
-    top: 70px;
-    margin: auto;
-    text-align: center;
-    color: rgb(0, 0, 79);
-    font-weight: bold;
-    font-size: 20px;
-}
-.footer .footer-list tr
-{
-    position: relative;
-    top: -300px;
-    display: flex;
-    flex-direction: row;
-}
-.footer .footer-list tr td 
-{
-    width: 75%;
-    margin-top: 250px;
-}
-.footer .contact-sec
-{
-    position: relative;
-    top: -200px;
-    left: 18%;
-}
-.footer .navigation-sec
-{
-    position: relative;
-    top: -280px;
-    left: 37%;
-}
-.footer .social-sec
-{
-    position: relative;
-    top: -450px;
-    left: 57%;
-}
-.footer .findus-sec
-{
-    position: relative;
-    left: 74%;
-    top: -560px;
-}
-.findus-sec a img
-{
-    height: 45px;
-}
-.footer .hr-line2
-{
-    position:relative;
-    top: -450px;
-}
-.footer h5
-{
-    position: relative;
-    top: -450px;
-}
+
+@media (min-width:1200px) {
+    .horse-background img 
+    {
+        height: 400px;
+        width: 470px;
+        position: relative;
+        top: -66px;
+    }
 }
